@@ -1,0 +1,31 @@
+.star{
+	color: red;
+}
+
+
+
+.combo{
+	width: 366px;
+}
+
+.email{
+	width: 362px;
+}
+
+.container{
+	margin-left: 472px;
+	margin-top: 50px;
+}
+
+.btn{
+	background: #3b5998;
+	color: white;
+	font-size: 16px;
+	padding: 5px;
+	width: 100px;
+	border-radius: 5px;
+}
+
+td{
+	font-size: 16px;
+}

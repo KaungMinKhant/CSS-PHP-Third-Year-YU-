@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fieldset with legend</title>
+	<style>
+		fieldset{
+			display: inline-block;
+			background-color: pink;
+			border-color: pink;
+			color: red;
+			border-radius: 5px;
+			text-align: left
+		}
+		legend{
+			background-color: pink;
+			border-color: pink;
+			color: red;
+			border-radius: 5px;
+			text-align: left;
+		}
+		table{
+			text-align: left;
+		}
+		.subject{
+			width: 100%;
+		}
+		.parent{
+			text-align: center;
+
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="parent">
+	<fieldset>
+		<legend align = "left">Personal</legend>
+		<table>
+			<tr>
+				<td>Name*</td>
+				<td><input type="text" name="name"></td>
+			</tr>
+			<tr>
+				<td>Email*</td>
+				<td><input type="text" name="email"></td>
+			</tr>
+			<tr>
+				<td>Phone*</td>
+				<td><input type="text" name="phone"></td>
+			</tr>
+			<tr>
+				<td>Subject*</td>
+				<td><select name="subject" class="subject"><option value="appointment">Appointment</option></select></td>
+			</tr>
+		</table>
+	</fieldset>
+	<br>
+	<br>
+	<fieldset>
+		<legend align = "left">Message</legend>
+		<table>
+			<tr>
+				<td valign="top">Message*</td>
+				<td><textarea rows="8"></textarea></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" class="btn"></td>
+			</tr>
+			
+		</table>
+	</fieldset>
+	</div>
+</body>
+</html>
