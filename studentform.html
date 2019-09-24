@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Student Form</title>
+	<style>
+		.container{
+			display: grid;
+			grid-template-columns: auto auto;
+			grid-gap: 10px;
+		}
+		.inline-div{
+			
+		}
+		.form-control{
+			text-align: right;
+		}
+		.content{
+			display: inline-block;
+		}
+		tr td{
+			padding: 10px;
+			font-size: 20px;
+		}
+		.full{
+			width: 100%;
+		}
+
+		.inner-grid{
+			display: grid;
+			grid-template-columns: auto auto auto;
+			grid-gap: 10px;
+			text-align: center;
+			margin: 10px;
+
+		}
+
+		button{
+			font-size: 20px;
+			padding: 10px;
+		}
+		body{
+			background-color: darkgreen;
+		}
+		h1{
+			color: orange;
+			text-align: center;
+			font-size: 50px;
+		}
+
+	</style>
+</head>
+<body>
+	<h1>Student Entry</h1>
+	<div class="container">
+		<div class="inline-div hey">
+			<div class="form-control">
+				<div class="content">
+					<table>
+						<tr>
+							<td>Student ID</td>
+							<td><input type="text" class="full"></td>
+						</tr>
+						<tr>
+							<td>Student Name</td>
+							<td><input type="text" class="full"></td>
+						</tr>
+						<tr>
+							<td>Student Address</td>
+							<td><input type="text" class="full"></td>
+						</tr>
+						<tr>
+							<td>Gender
+								<td>
+									<select name="gender" class="full">
+										<option value="male">Male</option>
+										<option value="female">Female</option>
+										<option value="other">Others</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td>DOB</td>
+								<td><input type="date" class="full"></td>
+							</tr>
+							<tr>
+								<td>Course
+									<td>
+										<select name="gender" class="full">
+											<option value="it">IT</option>
+											<option value="business">Business</option>
+											<option value="other">Others</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<td>Phone</td>
+									<td><input type="text" class="full"></td>
+								</tr>
+							</table>
+							<div class="inner-grid">
+								<div class="block">
+									<button>Add</button>
+								</div>
+								<div class="block">
+									<button>Cancel</button>
+								</div>
+								<div class="block">
+									<button>HomePage</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="inline-div">
+					<img src="meme4.jpg" alt="">
+					<br>
+					<input type="file">
+					<input type="button" value="Upload">
+				</div>
+			</div>
+		</body>
+		</html>
