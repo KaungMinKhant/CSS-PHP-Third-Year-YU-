@@ -1,4 +1,4 @@
-var jsonString = '{"set_attributes": {"date" : "@{currentdate}"},"return_to_blocks": ["Welcome Message"}'
+var jsonString = '{"set_attributes": ["date" : "@{currentdate}"],"return_to_blocks": ["Welcome Message"}'
 
 var parsedString = jsonString.replace(/@\{(\w+)\}/g, function(match, group) {    
 	if (group === 'currentdate') {
