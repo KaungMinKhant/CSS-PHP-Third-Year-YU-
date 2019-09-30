@@ -18,3 +18,7 @@ var parsedString = jsonString.replace(/@\{(\w+)\}/g, function(match, group) {
 		return 'anotherValue';
     } //and so on
 });
+
+var final = JSON.parse(parsedString);
+
+console.log(final.set_attributes[0].date);
