@@ -19,3 +19,4 @@ var parsedString = jsonString.replace(/@\{(\w+)\}/g, function(match, group) {
     } //and so on
 });
 
+var he = "dkl";
