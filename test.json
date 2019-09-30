@@ -2,10 +2,10 @@
 
 
 {
-	"set_attributes": [
+	"set_attributes": {
 		"day": "Monday",
 		"date": "October 1, 2019"
-	],
+	},
 	"return_to_blocks": [
 		"Welcome Message"
 	]
